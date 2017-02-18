@@ -1,0 +1,112 @@
+.main{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.head{
+	height: 120px;
+} 
+
+.logo img{
+	width: 150px;
+	float: left
+}
+
+.menu ul{
+	margin-top: 35px;
+	list-style: none;
+	float: right;
+	font-size: 20px;
+}
+
+.menu ul li{
+	margin-right: 40px;
+	display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;	
+}
+
+.menu ul li a:hover{
+	padding: 10px;
+	background: #CD5C5C;
+}
+.clear{
+	clear: both
+}
+
+.learn{
+	padding-top: 30px; 
+	text-align: center;
+	background-size: cover;
+	padding: 70px;
+	color: white;
+	background:black url("../img/bg_intro.jpg") center ;
+}
+
+.learn h1{
+	font-weight: normal;
+	font-size: 40px;	
+}
+
+h1 span{
+	font-weight: bold;
+}
+
+.learn button{
+	padding: 15px;
+	background: #CD5C5C;
+	border: 1px solid black
+}
+
+.portfolio {
+	text-align: center;
+}
+
+.design ul{
+	list-style: none;
+	color: white
+}
+
+.design ul li{
+	display: inline-block;
+	padding: 20px;
+	margin-left: 15px;
+	background: #CD5C5C;
+	font-weight: bold;
+}
+
+.circle{
+	background:#CD5C5C;
+	border-radius: 50%;
+	height: 200px;
+	width: 220px;  
+	margin: 10px 20px;
+	float: left;
+}
+
+.about-us{
+	text-align: center;
+	background:#CD5C5C ;
+	color: white;
+}
+
+.emp{
+	margin: 10px 60px;
+	float: left;
+	color: black;
+	background: white;
+
+}
+
+.emp .emp_info{
+	width: 250px;
+	text-align: justify;
+}
+
+.contact{
+	background: Lightgray;
+	text-align: center;
+}
